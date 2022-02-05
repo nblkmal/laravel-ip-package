@@ -68,5 +68,4 @@ Route::get('/test', function () {
 });
 ```
 
-> result
-![](/public/images/result.png)
+>![](/public/images/result.png)

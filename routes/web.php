@@ -1,5 +1,6 @@
 <?php
 
+use Nblkmal\IpGeo\Classes\IpGeo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test', function () {
+
+    $ip = new IpGeo();
+    $user_ip = $ip->getIP();
+    
+    $user_location = $ip->getGeolocation($user_ip);
+
+    return $user_location;
+});
+
+
+
+

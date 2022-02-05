@@ -69,4 +69,4 @@ Route::get('/test', function () {
 ```
 
 > result
-![alt text](result.png)
+![Result](/public/images/result.png)

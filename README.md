@@ -67,3 +67,6 @@ Route::get('/test', function () {
     return $user_ip;
 });
 ```
+
+> result
+![alt text](result.png)

@@ -118,3 +118,5 @@ Route::get('/test', function () {
 >![](/public/images/result.png)
 
 5. Success in using the package. You can check on `getGeolocation()` in the package.
+
+> Currently we are not using service provider as we dont have the need to either use routes or views from the packages

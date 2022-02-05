@@ -18,7 +18,8 @@ class IpGeo
     public function getGeolocation($ip)
     {
         $data = Http::get('https://ipinfo.io/'.$ip.'/geo');
-        $response = $data->object();
-        dd($response);
+        $response = $data->json();
+        
+        return $response;
     }
 }

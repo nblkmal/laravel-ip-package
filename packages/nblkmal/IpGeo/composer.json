@@ -1,0 +1,27 @@
+{
+    "name": "nblkmal/ip-geo",
+    "description": "API Package for user's IP & geolocation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nblkmal",
+            "email": "nblkmal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nblkmal\\IpGeo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nblkmal\\IpGeo\\Providers\\IpGeoServiceProvider"
+            ]
+        }
+    }
+}

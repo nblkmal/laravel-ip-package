@@ -16,9 +16,11 @@
 
 1. Open composer.json and add
 
->"repositories": [
+```
+"repositories": [
         {
             "type": "path",
             "url": "./packages/CustomAuth"
         }
     ],
+```
